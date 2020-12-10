@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F3561"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="130dp"
+      android:layout_marginBottom="5dp"
+      android:src="@drawable/valve"></ImageView>
+
+  <ImageView
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:src="@drawable/sagen" />
+  <TextView
+      android:id="@+id/Fullname"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="5dp"
+      android:text="SAGEN KENN E. BRIONES"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+
+  <TextView
+      android:id="@+id/Job"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:paddingTop="2dp"
+      android:paddingBottom="5dp"
+      android:text="Game Developer"
+      android:textColor="@color/white"
+      android:textSize="15dp" />
+
+  <ImageView
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:src="@drawable/barcode">
+
+  </ImageView>
+
+  <TextView
+      android:id="@+id/IDnumber"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="10dp"
+      android:text="ID NUMBER"
+      android:textColor="#FFEB3B"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/IdNumberInfo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="3dp"
+      android:text="20163418"
+      android:textColor="@color/white"
+      android:textSize="15dp" />
+
+  <TextView
+      android:id="@+id/Email"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="5dp"
+      android:text="EMAIL"
+      android:textColor="#FFEB3B"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/EmailInfo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="3dp"
+      android:text="sagenkenn1997@gmail.com"
+      android:textColor="@color/white"
+      android:textSize="15dp" />
+
+  <TextView
+      android:id="@+id/PhoneNumber"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="5dp"
+      android:text="PHONE NUMBER"
+      android:textColor="#FFEB3B"
+      android:textSize="15dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/PhoneNumberInfo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="3dp"
+      android:text="0933 812 5695"
+      android:textColor="@color/white"
+      android:textSize="15dp" />
+  <TextView
+      android:id="@+id/IDAdress"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ADDRESS"
+      android:textColor="#FFEB3B"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      tools:layout_editor_absoluteX="163dp"
+      tools:layout_editor_absoluteY="489dp" />
+
+  <TextView
+      android:id="@+id/Adress"
+      android:layout_width="210dp"
+      android:layout_height="47dp"
+      android:text="#486 Sitio Cabuloan, Macalong Asingan, Pangasinan 2439"
+      android:textColor="@color/white"
+      android:textSize="15dp" />
+
+  <TextView
+      android:id="@+id/valve"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="15dp"
+      android:text="Valve Corporation"
+      android:textColor="#698CD3"
+      android:textSize="13dp"
+      android:textStyle="italic" />
+
+  <TextView
+      android:id="@+id/valveYr"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="5dp"
+      android:text="1996"
+      android:textColor="#698CD3"
+      android:textSize="10dp"
+      android:textStyle="italic" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
